@@ -1,5 +1,47 @@
+"use client";
+import Link from "next/link";
 import React from "react";
+import { FaAngleRight } from "react-icons/fa6";
 
 export default function page() {
-  return <div className="w-full "></div>;
+  return (
+    <div className="w-full ">
+      <p className="max-w-[1170px] mx-auto uppercase  flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">
+        <Link href={"/"}>
+          <span>Home</span>
+        </Link>{" "}
+        <FaAngleRight className="text-[#D53332] cursor-default" /> Sales offices
+      </p>
+      <div className="max-w-[1170px] mx-auto ">
+        <h3 className="uppercase text-[30px] text-red-600 font-semibold tracking-wide mb-4">
+          Sales Offices
+        </h3>
+        <div className="grid grid-cols-3 gap-10 ">
+          {[1, 2, 3, 4, 5, 6].map((item, index) => {
+            return (
+              <div key={index} className="w-[100%] p-5 bg-[#F7F7F7]">
+                <h3 className="text-[25px] text-red-600 mb-3 tracking-wider">
+                  Corporate Office
+                </h3>
+                <ul>
+                  <li className="my-[10px] text-[18px] grid grid-cols-[8%_auto]">
+                    <IoLocationSharp className="text-[20px]" />
+                    1105, New Delhi House, 27, Barakhamba Road, New Delhi - 110
+                    001
+                  </li>
+                  <li className="my-[10px] text-[18px] grid grid-cols-[8%_auto]">
+                    <FaPhoneAlt />
+                    011-43673100
+                  </li>
+                  <li className="my-[10px] text-[18px] grid grid-cols-[8%_auto]">
+                    <FaBlenderPhone /> 91-11-23715247
+                  </li>
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
 }

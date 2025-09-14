@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import { FaAngleRight } from 'react-icons/fa6';
 
-export default function page() {
+export default function Page() {
     const [captcha, setCaptcha] = useState("");
     const [userInput, setUserInput] = useState("");
     const [message, setMessage] = useState("");

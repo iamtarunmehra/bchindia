@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { FaAngleRight } from 'react-icons/fa6'
 import { ProductSolutionData } from '../ApiData/ProductSolutionData'
 
-export default function page() {
+export default function Page() {
     let [activeTab, setActiveTab] = useState('pump controllers')
     const specificCategoryData = ProductSolutionData.filter((item) => item.categoryName == activeTab)[0]
 
@@ -31,7 +31,7 @@ export default function page() {
                         <ul className='grid grid-cols-3 gap-5'>
                             {specificCategoryData?.subCategory.map((subCat, index) => {
                                 return (
-                                    <div>
+                                    <div key={index}>
                                         <li className='w-[100%] bg-[#D53332] text-white px-3 py-3 cursor-pointer uppercase relative hover:bg-black duration-300'>{subCat.subCategoryName}
                                         </li>
 
@@ -39,7 +39,7 @@ export default function page() {
                                             <ul>
                                                 {subCat.subSubCategory.map((subSubCat, subSubCatIndex) => {
                                                     return (
-                                                        <p className='hover:text-red-600 duration-300 cursor-pointer'>{subSubCat}</p>
+                                                        <p key={subSubCatIndex} className='hover:text-red-600 duration-300 cursor-pointer'>{subSubCat}</p>
                                                     )
                                                 })}
 
