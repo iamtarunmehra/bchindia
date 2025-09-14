@@ -1,7 +1,9 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { FaAngleRight } from "react-icons/fa6";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaAngleRight, FaBlenderPhone } from "react-icons/fa6";
+import { IoLocationSharp } from "react-icons/io5";
 
 export default function page() {
   return (
