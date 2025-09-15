@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaAngleRight, FaBlenderPhone } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="w-full">
       <div className="w-full shadow-md">

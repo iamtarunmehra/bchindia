@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaAngleRight, FaBlenderPhone } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="w-full ">
       <p className="max-w-[1170px] mx-auto uppercase  flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">

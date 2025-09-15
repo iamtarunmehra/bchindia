@@ -25,8 +25,6 @@ export default function Header() {
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>news & events</li>
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>blog</li>
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>careers</li>
-
-
                         </ul>
                     </nav>
                 </div>
@@ -34,10 +32,10 @@ export default function Header() {
                     <div className='max-w-[1170px] mx-auto flex justify-between'>
                         <nav>
                             <ul className='text-white flex items-center gap-10'>
-                                <Link href={'/product-and-solution'}><li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest'>products & solution</li></Link>
-                                <li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest'>industries</li>
-                                <li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest'>applications</li>
-                                <li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest'>company</li>
+                                <Link href={'/product-and-solution'}><li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest '>products & Enclosures</li></Link>
+                                <li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest '>Power Solutions</li>
+                                <li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest '>Accessories</li>
+                                <Link href={'/company'}><li className='uppercase hover:border-b-white border-2 border-transparent duration-500 origin-center py-[15px] font-semibold cursor-pointer tracking-widest '>company</li></Link>
                             </ul>
                         </nav>
                         <div className='w-[300px] flex items-center  '>

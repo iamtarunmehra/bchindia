@@ -1,115 +1,184 @@
 export const ProductSolutionData = [
     {
-        categoryName: "pump controllers",
+        categoryName: "Weatherproof & Outdoor Enclosures",
         categoryHeading: "Motor Starters & Submersible Pump Starters",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
             {
-                subCategoryName: "dol",
+                subCategoryName: "Weatherproof Meter Boxes",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "fasd",
+                subCategoryName: "Weatherproof Junction Boxes",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "sasd",
+                subCategoryName: "Polycarbonate Enclosures",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "other starter",
+                subCategoryName: "Polycarbonate Socket Enclosures",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Charges Boxes",
                 subSubCategory: [],
             },
         ],
     },
     {
-        categoryName: "industrial products",
+        categoryName: "Metal Enclosures & Boxes",
         categoryHeading: "Industrial Products",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
             {
-                subCategoryName: "Power Control",
+                subCategoryName: "GI Boxes",
                 subSubCategory: [
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
+
                 ],
             },
             {
-                subCategoryName: "motor control products",
+                subCategoryName: "Powder Coated Boxes",
                 subSubCategory: [
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
+
                 ],
             },
             {
-                subCategoryName: "other industrial products",
+                subCategoryName: "Metal Open Junction Boxes",
                 subSubCategory: [
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
-                    "Ultra Pro max",
+
                 ],
+            },
+            {
+                subCategoryName: "Metal Junction Boxes (multiple options)",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Metal Clad Socket Boxes",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Customisation Orders",
+                subSubCategory: [],
             },
         ],
     },
     {
-        categoryName: "Industrial Enclosures",
+        categoryName: "Industrial Socket Boxes & Panels",
         categoryHeading: "Industrial Enclosures",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
             {
-                subCategoryName: "dol",
+                subCategoryName: "Industrial Socket Distribution Boxes (with stand & without stand)",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "fasd",
+                subCategoryName: "Socket Panels",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "sasd",
+                subCategoryName: "Portable Industrial Socket Boxes",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "other starter",
+                subCategoryName: "Industrial Socket PDUs (all types)",
                 subSubCategory: [],
             },
         ],
     },
     {
-        categoryName: "Industrial Solutions",
+        categoryName: "Industrial Plugs & Sockets",
         categoryHeading: "Industrial Solutions",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
             {
-                subCategoryName: "dol",
+                subCategoryName: "Industrial Plugs (all ranges)",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "fasd",
+                subCategoryName: "Industrial Sockets (all ranges)",
                 subSubCategory: [],
             },
             {
-                subCategoryName: "sasd",
-                subSubCategory: [],
-            },
-            {
-                subCategoryName: "other starter",
+                subCategoryName: "Enclosures for Plugs & Sockets",
                 subSubCategory: [],
             },
         ],
     },
-];
+    {
+        categoryName: "Solar & Power Distribution Solutions",
+        categoryHeading: "Industrial Solutions",
+        categoryImage:
+            "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
+        subCategory: [
+            {
+                subCategoryName: "Solar ACDB Enclosures",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Solar DCDB Enclosures",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Meter Panels",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "CT Meter Panels",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "APFC Panels",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Feeder Pillar Boxes",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Sub Pillar Boxes",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Pillar Boxes",
+                subSubCategory: [],
+            },
+        ],
+    },
+    {
+        categoryName: "Accessories & Components",
+        categoryHeading: "Industrial Solutions",
+        categoryImage:
+            "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
+        subCategory: [
+            {
+                subCategoryName: "Panel Locks & Keys",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "Busbar Sleeves (PVC & Heat Shrinkable)",
+                subSubCategory: [],
+            },
+            {
+                subCategoryName: "FRP Cable Trays",
+                subSubCategory: [],
+            },
+        ],
+    },
+    {
+        categoryName: "Flooring & Specialty Boxes",
+        categoryHeading: "Industrial Solutions",
+        categoryImage:
+            "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
+        subCategory: [
+            {
+                subCategoryName: "Flooring Boxes",
+                subSubCategory: [],
+            },
+        ],
+    },
+]
