@@ -22,14 +22,14 @@ export default function Page() {
             </h3>
             <p className="leading-[30px] mb-[25px] tracking-wide text-[18px]">
               An ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018 Company, is one
-              of today's well recognized Switchgear & Low Voltage Panel
+              of today&#39;s well recognized Switchgear & Low Voltage Panel
               manufacturer of low voltage electrical and electronic controls in
               India. The Company was established in 1965 as a joint venture
               between Cutler-Hammer, USA, and Indian partners. Since 1977, it is
               a wholly owned Indian company with global business connections.
             </p>
             <p className="leading-[30px] mb-[25px] tracking-wide text-[18px]">
-              The Company's first plant is located at Faridabad, near Delhi, on
+              The Company&#39;s first plant is located at Faridabad, near Delhi, on
               a 15-acre plot with a covered area of over 2,50,000 square feet,
               employing over 700 personnel with fully modern manufacturing
               facilities. In continuation of its policy of continued investments
