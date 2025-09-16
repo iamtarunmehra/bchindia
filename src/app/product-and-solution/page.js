@@ -38,7 +38,11 @@ export default function Page() {
                   <li
                     onClick={() => {
                       setActiveTab(item.categoryName);
-                      setCurrentProductIndex(index);
+                      if (currentProductIndex) {
+                        setCurrentProductIndex(null);
+                      } else {
+                        setCurrentProductIndex(index);
+                      }
                     }}
                     className={`py-[20px] hover:text-white hover:bg-[#D53332] duration-300 font-semibold capitalize flex items-center justify-between w-[100%] cursor-pointer text-[17px] tracking-wider mb-1 px-3 relative ${
                       activeTab === item.categoryName
@@ -59,7 +63,7 @@ export default function Page() {
                     {specificCategoryData.subCategory.map((subCat, newInd) => {
                       return (
                         <div
-                        key={newInd}
+                          key={newInd}
                           className="w-[100%] h-[250px] my-[20px] border border-gray-200 bg-cover bg-center group shadow-2xl flex items-end"
                           style={{
                             backgroundImage:
