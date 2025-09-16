@@ -12,7 +12,7 @@ export default function AboutUs() {
     ]
     return (
         <div className='w-[100%] '>
-            <div className="max-w-[1170px] mx-auto lg:my-[40px] my-[20px]">
+            <div className="max-w-[1170px] mx-auto lg:p-0 p-3 lg:my-[40px] my-[20px]">
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
                     {data.map((item, index) => {
                         return (

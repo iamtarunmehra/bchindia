@@ -11,7 +11,7 @@ export default function NewsSection() {
     ]
     return (
         <div className='w-[100%] bg-[#DDDDDD] py-[40px]'>
-            <div className='max-w-[1170px] mx-auto flex flex-col justify-center'>
+            <div className='max-w-[1170px] mx-auto lg:p-0 p-3 flex flex-col justify-center'>
                 <h2 className='text-center text-red-600 font-semibold uppercase text-[35px]'>THE LATEST NEWS</h2>
                 <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 items-center my-[40px]">
                     {data.map((item, index) => {

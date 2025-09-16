@@ -7,15 +7,15 @@ export default function Page() {
   return (
     <div className="w-full">
       <div className="w-full shadow-md">
-        <p className="max-w-[1170px] mx-auto uppercase flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">
+        <p className="max-w-[1170px] mx-auto lg:px-0 px-3 uppercase flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">
           <Link href={"/"}>
             <span>Home</span>
           </Link>{" "}
           <FaAngleRight className="text-[#D53332] cursor-default" /> company
         </p>
       </div>
-      <div className="max-w-[1170px] mx-auto lg:my-[60px] my-[30px]">
-        <div className="grid grid-cols-[40%_auto] gap-10">
+      <div className="max-w-[1170px] mx-auto lg:px-0 px-3 lg:my-[60px] my-[30px]">
+        <div className="grid md:grid-cols-[40%_auto] grid-cols-1 gap-10">
           <div>
             <h3 className="text-[25px] uppercase font-semibold mb-3">
               About us
@@ -29,9 +29,9 @@ export default function Page() {
               a wholly owned Indian company with global business connections.
             </p>
             <p className="leading-[30px] mb-[25px] tracking-wide text-[18px]">
-              The Company&#39;s first plant is located at Faridabad, near Delhi, on
-              a 15-acre plot with a covered area of over 2,50,000 square feet,
-              employing over 700 personnel with fully modern manufacturing
+              The Company&#39;s first plant is located at Faridabad, near Delhi,
+              on a 15-acre plot with a covered area of over 2,50,000 square
+              feet, employing over 700 personnel with fully modern manufacturing
               facilities. In continuation of its policy of continued investments
               in electrical products, BCH has set up another state-of-the-art
               manufacturing plant spread over 12 acres in Rudrapur, Uttarakhand

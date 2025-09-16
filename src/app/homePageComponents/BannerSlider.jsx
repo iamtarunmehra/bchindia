@@ -21,14 +21,14 @@ export default function BannerSlider() {
         autoplay: true,
         autoplaySpeed: 1500,
     };
-    
+
     return (
         <div className='w-[100%]'>
             <Slider {...settings}>
                 {sliderData.map((item, index) => {
                     return (
                         <div key={index}>
-                            <div style={{ backgroundImage: `url(${item.image})` }} className='w-[100%] h-[60vh] bg-no-repeat bg-cover bg-center'></div>
+                            <div style={{ backgroundImage: `url(${item.image})` }} className='w-[100%] lg:h-[60vh] h-[20vh] bg-no-repeat bg-cover bg-center'></div>
                         </div>
                     )
                 })}

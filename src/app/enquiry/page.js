@@ -38,7 +38,7 @@ export default function Page() {
   return (
     <div className="w-full  ">
       <div className="w-full shadow-md">
-        <p className="max-w-[1170px] mx-auto uppercase flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">
+        <p className="max-w-[1170px] mx-auto lg:px-0 px-3 uppercase flex items-center text-[15px] gap-2 py-[15px] cursor-pointer">
           <Link href={"/"}>
             <span>Home</span>
           </Link>{" "}
@@ -46,7 +46,7 @@ export default function Page() {
         </p>
       </div>
 
-      <div className="max-w-[1170px] lg:py-[40px] py-[30px] mx-auto">
+      <div className="max-w-[1170px] lg:p-0 p-3 lg:py-[40px] py-[30px] mx-auto">
         <h2 className="uppercase font-semibold text-red-600 text-center text-[33px] mb-5">
           Enquiry
         </h2>
@@ -114,11 +114,11 @@ export default function Page() {
             <p>Enquiry/Feedback*</p>
             <textarea className="w-full min-h-[100px] px-3 bg-white focus:outline-none"></textarea>
           </div>
-          <div className="w-[50%] mt-7 h-[150px] flex flex-col items-center justify-center gap-2 bg-white p-4">
+          <div className="lg:w-[50%] w-full mt-7 h-[150px] flex flex-col items-center justify-center gap-2 bg-white p-4">
             <div className="w-full h-[50px] flex items-center justify-center bg-gray-200 text-xl font-bold tracking-widest">
               {captcha}
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-2 mt-2">
               <input
                 required
                 type="text"

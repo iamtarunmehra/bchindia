@@ -1,7 +1,7 @@
 export const ProductSolutionData = [
     {
         categoryName: "Weatherproof & Outdoor Enclosures",
-        categoryHeading: "Motor Starters & Submersible Pump Starters",
+        categoryHeading: "Weatherproof & Outdoor Enclosures",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
@@ -29,7 +29,7 @@ export const ProductSolutionData = [
     },
     {
         categoryName: "Metal Enclosures & Boxes",
-        categoryHeading: "Industrial Products",
+        categoryHeading: "Metal Enclosures & Boxes",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
@@ -67,7 +67,7 @@ export const ProductSolutionData = [
     },
     {
         categoryName: "Industrial Socket Boxes & Panels",
-        categoryHeading: "Industrial Enclosures",
+        categoryHeading: "Industrial Socket Boxes & Panels",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
@@ -91,7 +91,7 @@ export const ProductSolutionData = [
     },
     {
         categoryName: "Industrial Plugs & Sockets",
-        categoryHeading: "Industrial Solutions",
+        categoryHeading: "Industrial Plugs & Sockets",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
@@ -151,7 +151,7 @@ export const ProductSolutionData = [
     },
     {
         categoryName: "Accessories & Components",
-        categoryHeading: "Industrial Solutions",
+        categoryHeading: "Accessories & Components",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
@@ -171,7 +171,7 @@ export const ProductSolutionData = [
     },
     {
         categoryName: "Flooring & Specialty Boxes",
-        categoryHeading: "Industrial Solutions",
+        categoryHeading: "Flooring & Specialty Boxes",
         categoryImage:
             "https://bchindia.com/wp-content/uploads/2018/05/Motor-Starters-and-Submersible-Pump-Starters.jpg",
         subCategory: [
