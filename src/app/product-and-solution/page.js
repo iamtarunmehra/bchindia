@@ -34,9 +34,8 @@ export default function Page() {
           <ul>
             {ProductSolutionData.map((item, index) => {
               return (
-                <div>
+                <div key={index}>
                   <li
-                    key={index}
                     onClick={() => {
                       setActiveTab(item.categoryName);
                       setCurrentProductIndex(index);
@@ -60,6 +59,7 @@ export default function Page() {
                     {specificCategoryData.subCategory.map((subCat, newInd) => {
                       return (
                         <div
+                        key={newInd}
                           className="w-[100%] h-[250px] my-[20px] border border-gray-200 bg-cover bg-center group shadow-2xl flex items-end"
                           style={{
                             backgroundImage:
