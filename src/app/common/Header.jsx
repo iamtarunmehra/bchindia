@@ -86,8 +86,8 @@ export default function Header() {
                         <Link href={'/product-and-solution'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>Product & Enclosures</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>power solutions</li>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>accessories</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>company</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>contact</li>
+                        <Link href={'/company'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>company</li></Link>
+                        <Link href={'/contact'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>contact</li></Link>
                         <Link href={'/enquiry'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>enquiry</li></Link>
                         <Link href={'/customer-care'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>customer care</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>news & events</li>
