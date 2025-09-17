@@ -69,7 +69,7 @@ export default function Header() {
                     </div>
                 </div>
 
-                <div className={`${mobileMenu ? 'left-0 opacity-100' : 'left-[-100%] opacity-0'} w-[100%] h-[92vh] overflow-y-scroll duration-300 bg-white fixed z-[50] transition-all top-0 ease-in-out`}>
+                <div className={`${mobileMenu ? 'left-0 opacity-100' : 'left-[-100%] opacity-0'} w-[100%] h-[100vh] overflow-y-scroll duration-300 bg-white fixed z-[50] transition-all top-0 ease-in-out`}>
                     <div className='p-3 flex justify-between items-center'>
                         <img className='w-[150px] object-cover' src='https://cdn-emlhe.nitrocdn.com/MkgNpkZvYKVwPmbOimyJmEkqNYyWtMye/assets/images/optimized/rev-cf616e1/bchindia.com/wp-content/uploads/2025/01/2019-12-18.webp' />
                         <button onClick={() => setMobileMenu(false)} className='text-[35px] text-red-600'><IoCloseSharp /></button>
@@ -94,7 +94,7 @@ export default function Header() {
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>blog</li>
                         <Link href={'/sales-offices'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>sales offices</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>downloads</li>
-
+                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] bg-[#D53332] text-white text-center text-[18px]'>contact us</li>
                     </ul>
                 </div>
 
