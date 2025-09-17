@@ -17,7 +17,7 @@ export default function Header() {
                 contact us
             </button></Link>
 
-            <Link href={'/enquiry'}><button className='lg:hidden block fixed lg:top-1/2 bottom-0 right-0 lg:-rotate-90 w-full uppercase hover:bg-gray-800 duration-300 px-[45px] lg:py-[11px] py-[15px] cursor-pointer text-[18px] font-semibold bg-[#D53332] text-white'>
+            <Link href={'/enquiry'}><button className='lg:hidden block fixed lg:top-1/2 bottom-0 right-0 lg:-rotate-90 w-full uppercase hover:bg-gray-800 duration-300 px-[45px] py-[12px] cursor-pointer text-[18px] font-semibold bg-[#D53332] text-white'>
                 contact us
             </button></Link>
             {/* header for pc */}
@@ -27,7 +27,7 @@ export default function Header() {
                     <nav>
                         <ul className='flex items-center gap-5'>
                             <Link href={'/contact'}><li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>contact</li></Link>
-                            <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>customer care</li>
+                            <Link href={'/customer-care'}><li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>customer care</li></Link>
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>downloads</li>
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>news & events</li>
                             <li className='uppercase text-[13px] cursor-pointer hover:text-red-600 font-[500] tracking-widest border-b-2 border-b-transparent hover:border-b-red-600 pb-1 duration-300'>blog</li>
@@ -58,7 +58,7 @@ export default function Header() {
 
             {/* header for mobile */}
             <div className='lg:hidden block w-full z-50 relative'>
-                <div className='p-3 flex justify-between items-center'>
+                <div className='p-3 flex justify-between items-center '>
                     <img className='w-[150px] object-cover' src='https://cdn-emlhe.nitrocdn.com/MkgNpkZvYKVwPmbOimyJmEkqNYyWtMye/assets/images/optimized/rev-cf616e1/bchindia.com/wp-content/uploads/2025/01/2019-12-18.webp' />
                     <button onClick={() => setMobileMenu(true)} className='text-[35px] text-red-600'><HiBars3 /></button>
                 </div>
@@ -86,14 +86,13 @@ export default function Header() {
                         <Link href={'/product-and-solution'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>Product & Enclosures</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>power solutions</li>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>accessories</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>home</li>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>company</li>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>contact</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>enquiry</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>customer care</li>
+                        <Link href={'/enquiry'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>enquiry</li></Link>
+                        <Link href={'/customer-care'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>customer care</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>news & events</li>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>blog</li>
-                        <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>sales offices</li>
+                        <Link href={'/sales-offices'}><li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>sales offices</li></Link>
                         <li onClick={() => setMobileMenu(false)} className='capitalize px-3 py-[12px] border-b border-gray-300'>downloads</li>
 
                     </ul>

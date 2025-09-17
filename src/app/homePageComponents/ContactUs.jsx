@@ -34,7 +34,7 @@ export default function ContactUs() {
     };
     return (
         <div className='w-[100%] py-[40px] overflow-hidden'>
-            <div className="max-w-[1170px] mx-auto lg:p-0 p-3 border-t pt-12 border-red-600 grid md:grid-cols-2 gap-12">
+            <div className="max-w-[1170px] mx-auto lg:p-0 lg:pt-12 p-3 border-t pt-12 border-red-600 grid md:grid-cols-2 gap-12">
 
                 <div className='text-[18px]'>
                     <h2 className='text-[24px] text-[#D53332]  uppercase mb-3'>get in touch</h2>

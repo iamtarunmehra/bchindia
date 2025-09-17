@@ -1,30 +1,31 @@
 "use client"
+import Link from 'next/link';
 import React from 'react'
 import { FaAngleRight } from "react-icons/fa6";
 
 
 export default function AboutUs() {
     const data = [
-        { title: 'MOTOR STARTERS & SUBMERSIBLE PUMP STARTERS', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
-        { title: 'MOTOR STARTERS & SUBMERSIBLE PUMP STARTERS', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
-        { title: 'MOTOR STARTERS & SUBMERSIBLE PUMP STARTERS', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
-        { title: 'MOTOR STARTERS & SUBMERSIBLE PUMP STARTERS', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
+        { title: 'motor starter and SUBMERSIBLE PUMP STARTERS', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
+        { title: 'industrial products', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
+        { title: 'industrial enclosures', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
+        { title: 'industrial solutions', image: 'https://bchindia.com/wp-content/uploads/2016/12/Moter-Starters-Submersible-Pump-Starters-Thumb.png' },
     ]
     return (
-        <div className='w-[100%] '>
+        <div className='w-[100%]'>
             <div className="max-w-[1170px] mx-auto lg:p-0 p-3 lg:my-[40px] my-[20px]">
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-10">
                     {data.map((item, index) => {
                         return (
-                            <div key={index} className='bg-[#E3E3E3] w-[100%] h-[350px] px-5 pt-5 cursor-pointer group'>
+                            <Link href={`/product-category/${item.title.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`}><div key={index} className='bg-[#E3E3E3] w-[100%] h-[350px] px-5 pt-5 cursor-pointer group'>
                                 <div className='grid grid-cols-[95%_auto] items-center'>
-                                    <h2 className='text-[18px] font-semibold group-hover:text-red-600 duration-300'>MOTOR STARTERS & SUBMERSIBLE PUMP STARTERS</h2>
+                                    <h2 className='text-[18px] font-semibold group-hover:text-red-600 duration-300 uppercase'>{item.title}</h2>
                                     <p className='text-red-600 text-[18px]'><FaAngleRight /></p>
                                 </div>
                                 <div className='h-[70%] flex items-center'>
                                     <img src={item.image} />
                                 </div>
-                            </div>
+                            </div></Link>
                         )
                     })}
                 </div>

@@ -62,7 +62,7 @@ export default function Page() {
                       return (
                         <div
                           key={newInd}
-                          className="w-[100%] sm:h-[250px] h-[200px] my-[20px] border border-gray-200 bg-cover bg-center group shadow-2xl flex items-end"
+                          className="w-[100%] cursor-pointer sm:h-[250px] h-[200px] my-[20px] border border-gray-200 bg-cover bg-center group shadow-2xl flex items-end"
                           style={{
                             backgroundImage:
                               'url("https://5.imimg.com/data5/LD/FF/MY-4513089/single-door-panel-enclosure-500x500.jpg")',
